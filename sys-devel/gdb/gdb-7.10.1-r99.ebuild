@@ -93,6 +93,7 @@ src_prepare() {
 	! use vanilla && [[ -n ${PATCH_VER} ]] && EPATCH_SUFFIX="patch" epatch "${WORKDIR}"/patch
 
 	epatch "${FILESDIR}"/${PN}-linux_nat.patch
+	epatch "${FILESDIR}"/${PN}-linux_musl.patch
 
 	epatch_user
 	strip-linguas -u bfd/po opcodes/po

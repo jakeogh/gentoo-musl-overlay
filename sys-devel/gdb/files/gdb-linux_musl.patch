@@ -1,0 +1,10 @@
+--- a/gdb/gdbserver/target.h	2016-02-07 00:14:28.078864072 +0000
++++ b/gdb/gdbserver/target.h	2016-02-07 00:17:38.898866935 +0000
+@@ -27,6 +27,7 @@
+ #include "target/waitstatus.h"
+ #include "mem-break.h"
+ #include "btrace-common.h"
++#include <sys/types.h>
+ 
+ struct emit_ops;
+ struct buffer;
