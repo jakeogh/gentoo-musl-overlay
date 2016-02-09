@@ -147,6 +147,7 @@ PATCHES=(
 	# needed for new eselect-opengl, bug #541232
 	"${FILESDIR}"/${PN}-1.17-support-multiple-Files-sections.patch
 	"${FILESDIR}"/${PN}-1.17.4-arm-musl.patch
+	"${FILESDIR}"/${PN}-1.17.4-musl.patch
 )
 
 pkg_pretend() {
